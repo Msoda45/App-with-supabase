@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "logo": "Hama Kala",
+    "btn_light": "Light",
+    "btn_dark": "Dark",
+    "btn_system": "System",
+    "btn_login": "Login",
+    "theme": "Theme"
+  },
+    "homepage": {
+      "hero":{
+        "title": "Find unique items tailored to your life styles",
+        "descrabtion": "Insted of making  you browse through thousends of generic items, these servasies analyze your style preferences, geographic location, nd daily routins to surface high-quality, distinctive goods.",
+        "Btn_Explore-more": "Explore-Products",
+        "Btn_join": "Join US"
+      },
+          "features": {
+          "subtitle": "Features",
+          "title": "Our Special Features",
+          "feature1": {
+            "title": "Security",
+            "desc": "Your Data In This App Is Completely Secure"
+          },
+          "feature2": {
+            "title": "User Friendly",
+            "desc": "The UI/UX Of Application Build To Feel Comfortable"
+          },
+            "feature3": {
+            "title": "Moltiple Language",
+            "desc": "This Applacation  Is Avilable In Dari , Pashto, And English Languags"
+          },  "feature4": {
+            "title": "Products Variaty",
+            "desc": "You Can Find Variaty Of Products From Different  Brands Around The World"
+          }
+      },
+      "categories": {
+        "title": "Products Categories",
+        "cat1": {
+          "title": "Men",
+          "desc": "Fall 2026"
+        },
+         "cat2": {
+          "title": "Women",
+          "desc": "Fall 2026"
+        },
+         "cat3": {
+          "title": "Accessories",
+          "desc": "Famous Brand"
+        }
+      }
+      }
+    }
