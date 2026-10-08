@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl"
+import CategoriesCard from "./categoriCard";
 
 export default function Catagory(){
     const t = useTranslations("homepage.categories");
@@ -23,6 +24,15 @@ export default function Catagory(){
         },
     ] 
     return(
-        <div className="w-full max-w-6xl mx-auto grid md:grid-cols-3 grid-cols-1 md:gap-8 gap-4"></div>
+        <div className="w-full max-w-6xl mx-auto mt-8 gap-4">
+           <h1 className="title">{t("title")}</h1>
+           <div className="w-full grid md:grid-cols-3 grid-cols-1 md:gap-6 gap-4">
+             {
+                listCategories.map((catagories)=>(
+                    <CategoriesCard key={catagories.id} categories = {catagories}/>
+                ))
+            }
+           </div>
+        </div>
     )
 }

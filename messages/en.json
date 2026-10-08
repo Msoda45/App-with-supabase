@@ -47,6 +47,18 @@
           "title": "Accessories",
           "desc": "Famous Brand"
         }
+      },
+      "products": {
+        "title": "Feature Products",
+        "categories": {
+          "men": "Men",
+          "woman": "Woman",
+          "all-products": "All Products",
+          "shoes": "Shoes",
+          "watches": "Watches",
+          "search": "Search",
+          "filter": "Filter"
+        }
       }
       }
     }
