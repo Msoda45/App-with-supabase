@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl"
 import HeroSection from "../compnend-supabase/homePage/Hero"
 import FeatuerSection from "../compnend-supabase/homePage/featuers"
 import Catagory from "../compnend-supabase/homePage/catagory"
+import FeaturedProducts from "../compnend-supabase/homePage/featured-products"
 export const metadata = {
   title: "خانه"
 }
@@ -12,6 +13,7 @@ const t =   useTranslations("homepage")
       <HeroSection/>
       <FeatuerSection/>
       <Catagory/>
+      <FeaturedProducts/>
     </div>
   )
 }

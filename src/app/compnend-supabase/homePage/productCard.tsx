@@ -1,3 +1,4 @@
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Image from "next/image";
 // import {Card , CardHeader , CardContent} from "@/components/ui/Card"
 export default function ProductCard({product}: {product: {name: string, price: number , image: string}}){

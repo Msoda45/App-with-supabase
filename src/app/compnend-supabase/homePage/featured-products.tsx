@@ -1,11 +1,15 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import ProductCard from "./productCard"
 import SearchButton from "./searchButton"
 import { useTranslations } from "next-intl"
 import FilterButton from "./filterButton"
+import { useState } from "react"
+import FilteredProducts from "./filteredProducts"
 
 export default function FeaturedProducts(){
-    con
+    const [showInput , setShowInput] = useState(false);
+    const [showFilter , setShowFilter] = useState(false);
     const t = useTranslations("homepage.products")
     const productsList: {id:number , name: string , price: number , image: string}[] = [
         {
@@ -45,8 +49,18 @@ export default function FeaturedProducts(){
                 <Button variant="link">{t("categories.watches")}</Button>
             </div>
             <div className="flex gap-4 items-center">
-                <SearchButton text = {t("categories.search")}/>
-                <FilterButton/>
+                <SearchButton 
+                text ={t("categories.search")}
+                showInput = {showInput}
+                setShowInput={setShowInput}
+                />
+                <FilterButton
+                showFilter={showFilter}
+                setShowFilter={setShowFilter}
+                />
+            </div>
+            <div className="w-full">
+                <FilteredProducts showFilter = {showFilter}/> 
             </div>
           </div>
            <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">

@@ -51,7 +51,7 @@
       "products": {
         "title": "Feature Products",
         "categories": {
-          "men": "Men",
+          "man": "Men",
           "woman": "Woman",
           "all-products": "All Products",
           "shoes": "Shoes",
