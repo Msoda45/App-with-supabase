@@ -52,7 +52,7 @@
       "products": {
         "title": "محصولات ویژه",
         "categories": {
-          "men": "مردانه",
+          "man": "مردانه",
           "woman": "زنانه",
           "all-products": "تمام محصولات",
           "shoes": "بوتیک",

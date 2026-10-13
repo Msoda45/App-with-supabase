@@ -3,7 +3,7 @@ import {ListFilter } from "lucide-react";
 
 export default function FilterButton({showFilter , setShowFilter}: {showFilter : boolean , setShowFilter: any}){
     return(
-        <div className="hover:bg-pink-600">
+        <div className="hover:bg-pink-600 bg-gray-300 text-gray-600">
                   <Button 
             onClick={()=> setShowFilter(!showFilter)}
             className={`

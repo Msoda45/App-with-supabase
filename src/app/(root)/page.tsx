@@ -14,6 +14,7 @@ const t =   useTranslations("homepage")
       <FeatuerSection/>
       <Catagory/>
       <FeaturedProducts/>
+      
     </div>
   )
 }

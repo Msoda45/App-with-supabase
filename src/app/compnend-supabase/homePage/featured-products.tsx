@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl"
 import FilterButton from "./filterButton"
 import { useState } from "react"
 import FilteredProducts from "./filteredProducts"
+import { Input } from "@/components/ui/input"
 
 export default function FeaturedProducts(){
     const [showInput , setShowInput] = useState(false);
@@ -16,7 +17,7 @@ export default function FeaturedProducts(){
             id: 1,
             name: "Classic MotoreCicle Cup",
             price: 300,
-            image: "/images/cups/c1.png.png"
+            image: "/images/cups/c2.png.jpg"
         },
         {
             id: 2,
@@ -28,13 +29,13 @@ export default function FeaturedProducts(){
             id: 3,
             name: "Classic Trench Coat",
             price: 500,
-            image: "/images/woman-cloth/p3.png.png"
+            image: "/images/woman-cloth/p3.png.jpeg"
         },
         {
             id: 4,
             name: "The New Brand Shoes",
             price: 800,
-            image: "/images/woman-shoes/sw1.png.png"
+            image: "/images/m-shoes/sm1.png.png"
         },
     ]
     return(
@@ -59,10 +60,16 @@ export default function FeaturedProducts(){
                 setShowFilter={setShowFilter}
                 />
             </div>
+          </div>
             <div className="w-full">
                 <FilteredProducts showFilter = {showFilter}/> 
             </div>
-          </div>
+            <div className="w-full">
+                <Input 
+                placeholder={t("categories.search")}
+                className={`w-full mb-4 py-4 px-5 rounded-full ${showInput}? "block" : "hidden"`}
+                type="text"/>
+            </div>
            <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {productsList.map((product)=>(
                 <ProductCard product = {product} key={product.id}/>

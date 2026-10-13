@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 
 export default function SearchButton({text , setShowInput , showInput}:{text: string, setShowInput: any , showInput: boolean }){
     return(
-        <div>
+        <div className="hover:bg-pink-600 bg-gray-300 dark:text-gray-800 text-xl">
             <Button 
             onClick={()=> setShowInput(!showInput)}
             className={`
