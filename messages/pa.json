@@ -60,6 +60,83 @@
           "search": "لټون",
           "filter": "فیلټر"
         }
+      },
+      "filter": {
+        "brand":{
+          "title": "Brand",
+          "fashoin": "Fashoin",
+          "lifeStyle": "LifeStyle",
+          "hazaragi": "Hazaragi",
+          "crafts": "Crafts"
+        },
+        "Colors": {
+        "title": "Colors",
+        "black": "Black",
+        "pink": "Pink",
+        "purple": "Purple",
+        "green": "Green",
+        "red": "Red",
+        "white": "White"
+        },
+      "price": {
+        "title": "Price",
+        "all": "All",
+        "more_than-2000": "More_Than_2000"
+      },
+      "sort_by": {
+        "title": "Sort_By",
+        "defult": "Defult",
+        "poularity": "Popularity",
+        "newness": "NewNess",
+        "price_low_to_high": "Price_Low_To_High",
+        "price_High_to_Low": "Price_High_To_Low"
       }
-    }
+       }
+    },
+                "dashboard": {
+        "header": {
+          "title": "فروشگاه آنلاین"
+        },
+        "sidebar": {
+          "title": "دشبورد",
+          "products": {
+            "title": "مدیریت محصولات",
+            "all": "محصولات",
+            "insert": "اضافه کردن محصول جدید",
+            "manege": "مدیریت محصولات"
+          },
+          "feedback": {
+           "title": "نظریات",
+           "manege": "مدیریت نظریات"
+          }
+        },
+           "addproduct": {
+              "title": "Creat New Products",
+          "desc": "insert products that has recantly added to the store. ",
+          "placeholder": {
+            "name": "Product Name",
+            "price": "product Price",
+            "descrabtion": "Product Descrabtion",
+            "qty": "Quantity",
+            "alert_qty": "Alert_Quantity",
+            "brand": "Product Brand",
+            "color": "Product Colors",
+            "size" : "Product Size"
+          },
+          "lables": {
+            "name": "Product Name",
+            "price": "product Price",
+            "descrabtion": "Product Descrabtion",
+            "qty": "Quantity",
+            "alert_qty": "Alert_Quantity",
+            "brand": "Product Brand",
+            "color": "Product Colors",
+            "size" : "Product Size",
+            "man_data": "Man_Data",
+            "exp_data": "Exp_Data",
+            "back_image": "Product Back Image",
+            "front_image": "Product Front Image"
+          }
+        }
+      }
 }

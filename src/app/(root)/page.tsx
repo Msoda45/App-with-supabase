@@ -9,7 +9,7 @@ export const metadata = {
 export default function HomePage(){
 const t =   useTranslations("homepage")
   return(
-    <div className="mt-28">
+    <div className="mt-28 h-full w-full bg-white">
       <HeroSection/>
       <FeatuerSection/>
       <Catagory/>
