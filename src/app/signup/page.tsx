@@ -10,7 +10,7 @@ function page() {
         <Card className = "w-1/4 py-2">
             <CardHeader>
                 <CardTitle className ="text-3xl font-semibold">Sign Up</CardTitle>
-                <CardDescription>Login to the platform using email and password</CardDescription>
+                <CardDescription>Login To The Platform Using Email And Password</CardDescription>
             </CardHeader>
             <CardContent>
                 <SignUpForm/>
