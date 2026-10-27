@@ -134,8 +134,37 @@
             "man_data": "Man_Data",
             "exp_data": "Exp_Data",
             "back_image": "Product Back Image",
-            "front_image": "Product Front Image"
+            "front_image": "Product Front Image",
+
+                  "Colors": {
+        "title": "Colors",
+        "black": "Black",
+        "pink": "Pink",
+        "purple": "Purple",
+        "blue": "blue",
+        "brown": "brown",
+        "yellow": "yellow",
+        "orenge": "orenge",
+        "white": "White",
+        "green": "Green",
+        "red": "Red",
+        "gray": "gray"
+        }
           }
+        }
+      },
+      "login": {
+        "title": "Sign In",
+        "desc": "Login to the platform using email and password",
+        "email": "Email",
+        "password": "Password",
+        "btn_signin": "Sign In",
+        "forget_password": "Forget Password",
+        "sign_iv_with_google": "Sign In With Google",
+        "sign_in_with_github": "Sign In With GitHub",
+        "plasholder": {
+          "email": "Please Enter Your Email",
+          "password": "Please Enter Your Password"
         }
       }
     }

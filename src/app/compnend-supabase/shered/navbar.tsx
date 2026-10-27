@@ -16,7 +16,8 @@ export default function Navbar(){
             <LangaugeSwitcher/>
             <Button>
                 <LogIn size={18}/>
-                {t("btn_login")}</Button>
+                {t("btn_login")}
+                </Button>
            </div>
         </div>
     )

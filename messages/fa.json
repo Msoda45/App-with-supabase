@@ -135,8 +135,38 @@
             "man_data": "تاریخ تولد",
             "exp_data": "تاریخ انقضا",
             "back_image": " عکس محصول از روبرو",
-            "front_image": "عکس محصول از عقب"
+            "front_image": "عکس محصول از عقب",
+
+
+                  "Colors": {
+        "title": "Colors",
+        "black": "Black",
+        "pink": "Pink",
+        "purple": "Purple",
+        "blue": "blue",
+        "brown": "brown",
+        "yellow": "yellow",
+        "orenge": "orenge",
+        "white": "White",
+        "green": "Green",
+        "red": "Red",
+        "gray": "gray"
+        }
           }
+        }
+      },
+      "login": {
+        "title": "وارد شدن",
+        "desc": "Login to the platform using email and password",
+        "email": "ایمیل",
+        "password": "پسورد",
+        "btn_signin": "Sign In",
+        "forget_password": "Forget Password",
+        "sign_iv_with_google": "Sign In With Google",
+        "sign_in_with_github": "Sign In With GitHub",
+        "plasholder": {
+          "email": "لطفا ایمیل خود را وارد کنید",
+          "password": "لطفا پسورد خود را وارد کنید"
         }
       }
 }
